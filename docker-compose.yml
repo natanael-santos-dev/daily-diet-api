@@ -1,0 +1,16 @@
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'admin123'
+      MYSQL_DATABASE: 'data-base'
+      MYSQL_ROOT_PASSWORD: 'admin123'
+    ports:
+      - "3307:3306"
+    expose:
+      # Opens port 3307 on the container
+      - '3306'
+    volumes:
+      - C:\Projetos\db\mysql:/var/lib/mysql
