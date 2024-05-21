@@ -60,9 +60,9 @@ def get_snack(id_snack):
     if snack:
         output = ({
             'id': snack.id,
-            "nome": snack.name,
+            "name": snack.name,
             "description": snack.description,
-            "dataTime": snack.dateTime.strftime("%d/%m/%Y-%H:%M"),
+            "dateTime": snack.dateTime.strftime("%d/%m/%Y-%H:%M"),
             "check": snack.check
         })
         return jsonify (output)
