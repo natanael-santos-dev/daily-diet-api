@@ -30,7 +30,7 @@ def create_snack():
     db.session.add(new_snack)
     db.session.commit()
 
-    return jsonify({"message": "Refeição cadastrada com sucesso!"})
+    return jsonify({"message": "Refeição cadastrada com sucesso", "id": new_snack.id})
 
 @app.route("/snack", methods=['GET'])
 def get_snacks():
@@ -59,6 +59,7 @@ def get_snack(id_snack):
 
     if snack:
         output = ({
+            'id': snack.id,
             "nome": snack.name,
             "description": snack.description,
             "dataTime": snack.dateTime.strftime("%d/%m/%Y-%H:%M"),
