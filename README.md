@@ -1,6 +1,6 @@
 # Daily Diet Api
 
-API para controle de dieta diária em Flask com MySQL via Docker e testes automatizados.
+API Flask para controle de dieta diária desenvolvido com Flask-SQLAlchemy, MySQL e pytest para testes automatizados.
 
  ## Tecnologias Utilizadas
 - Flask
