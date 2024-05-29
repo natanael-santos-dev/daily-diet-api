@@ -5,9 +5,9 @@ API para controle de dieta diária com Flask, Flask-SQLAlchemy, MySQL e testes a
 Funcionalidades:
 
 - Adicionar refeições com nome, descrição, data, hora e status (dentro ou fora da dieta).
-- Buscar todas as refeições ou uma refeição específica.
-- Atualizar refeições existentes.
-- Deletar refeições
+- Buscar todas as refeições ou uma específica por ID.
+- Atualizar refeições.
+- Deletar refeições.
 
  ## Tecnologias Utilizadas
 - Flask
