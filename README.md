@@ -13,7 +13,6 @@ Funcionalidades:
 - Flask
 - Flask-SQLAlchemy
 - MySQL
-- Docker
 - Pytest
 
  ## Como executar a aplicação
