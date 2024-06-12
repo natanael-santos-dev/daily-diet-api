@@ -1,6 +1,6 @@
 # Daily Diet Api
 
-API para controle de dieta diária com Flask, Flask-SQLAlchemy, MySQL e testes automatizados com pytest.
+API para controle de dieta diária com Flask, SQLAlchemy, MySQL e testes automatizados com pytest.
 
 Funcionalidades:
 
@@ -11,7 +11,7 @@ Funcionalidades:
 
  ## Tecnologias Utilizadas
 - Flask
-- Flask-SQLAlchemy
+- SQLAlchemy
 - MySQL
 - Pytest
 
