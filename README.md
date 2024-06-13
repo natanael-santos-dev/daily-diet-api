@@ -1,6 +1,6 @@
 # Daily Diet Api
 
-API para controle de dieta diária com Flask, SQLAlchemy, MySQL e testes automatizados com pytest.
+API para o gerenciamento de dieta diária com testes automatizados.
 
 Funcionalidades:
 
@@ -9,13 +9,13 @@ Funcionalidades:
 - Atualizar refeições.
 - Deletar refeições.
 
- ## Tecnologias Utilizadas
+ ## Tecnologias utilizadas
 - Flask
 - SQLAlchemy
 - MySQL
 - Pytest
 
- ## Como executar a aplicação
+ ## Executando a aplicação
 1. Certifique-se de ter o Python e o Docker instalados corretamente.
 
 2. Clone este repositório:
@@ -50,7 +50,7 @@ exit()
 python app.py
 ````
 
-## Como Executar os Testes Automatizados
+## Executando os testes automatizados
 1. Com a aplicação em execução, abra um novo terminal, acesse o diretório do projeto e execute o comando:
 ```bash
 pytest tests.py -v
