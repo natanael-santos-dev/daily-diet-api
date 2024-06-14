@@ -1,6 +1,6 @@
 # Daily Diet Api
 
-API para o gerenciamento de dieta diária com testes automatizados.
+API para o gerenciamento de dieta diária com operações CRUD e testes automatizados.
 
 Funcionalidades:
 
